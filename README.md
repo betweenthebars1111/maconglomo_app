@@ -108,4 +108,3 @@ $dsn = "mysql:host=$host;dbname=$db;charset=$charset";
 
 ---
 
-👉 Do you want me to **turn this into a clean `README.md`** (with headings, code blocks, and step numbers) so you can just drop it into your GitHub repo?
