@@ -108,3 +108,70 @@ $dsn = "mysql:host=$host;dbname=$db;charset=$charset";
 
 ---
 
+Great 👍 Here’s a **ready-to-use “For Groupmates” section** you can just drop into your `README.md`:
+
+---
+
+## 👥 For Groupmates: How to Download and Run the Project
+
+### Step 1. Get the Project
+
+You have two options:
+
+**Option A: Download ZIP**
+
+1. Go to the project repository on GitHub.
+2. Click the green **Code** button.
+3. Select **Download ZIP**.
+4. Extract the folder into `C:\laragon\www`.
+
+**Option B: Clone with Git (recommended)**
+If you have Git installed:
+
+```bash
+cd C:\laragon\www
+git clone https://github.com/your-username/your-repo-name.git
+```
+
+---
+
+### Step 2. Import the Database
+
+1. Open Laragon → right-click → **MySQL → phpMyAdmin**.
+2. Login (username: `root`, password: *leave empty*).
+3. Create a new database named `maconglomo_db`.
+4. Import `maconglomo_db.sql` from the project folder.
+
+---
+
+### Step 3. Install Dependencies
+
+1. Open terminal in the project folder:
+
+   ```bash
+   cd C:\laragon\www\your-repo-name
+   ```
+2. Run:
+
+   ```bash
+   composer install
+   ```
+
+   → This will generate the `vendor/` folder automatically.
+
+---
+
+### Step 4. Run the Project
+
+1. Make sure Laragon is running (Apache + MySQL started).
+2. Open browser and go to:
+
+   ```
+   http://localhost/maconglomo_app/public/login.php
+   ```
+
+🎉 That’s it! The project should now be running on your machine.
+
+---
+
+
