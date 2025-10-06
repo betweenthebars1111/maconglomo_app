@@ -89,10 +89,10 @@ $dsn = "mysql:host=$host;dbname=$db;charset=$charset";
 2. Run:
 
    ```bash
-   composer install
+   composer require dompdf/dompdf
    ```
 
-   * This will generate the `vendor/` folder and install libraries (e.g. Dompdf/TCPDF/mPDF for PDF support).
+   * This will generate the `vendor/` folder and install libraries (e.g. Dompdf/TCPDF/mPDF for PDF support). 
 
 ---
 
@@ -108,32 +108,15 @@ $dsn = "mysql:host=$host;dbname=$db;charset=$charset";
 
 ---
 
-Great 👍 Here’s a **ready-to-use “For Groupmates” section** you can just drop into your `README.md`:
-
----
 
 ## 👥 For Groupmates: How to Download and Run the Project
 
 ### Step 1. Get the Project
 
-You have two options:
-
-**Option A: Download ZIP**
-
 1. Go to the project repository on GitHub.
 2. Click the green **Code** button.
 3. Select **Download ZIP**.
 4. Extract the folder into `C:\laragon\www`.
-
-**Option B: Clone with Git (recommended)**
-If you have Git installed:
-
-```bash
-cd C:\laragon\www
-git clone https://github.com/your-username/your-repo-name.git
-```
-
----
 
 ### Step 2. Import the Database
 
@@ -149,12 +132,12 @@ git clone https://github.com/your-username/your-repo-name.git
 1. Open terminal in the project folder:
 
    ```bash
-   cd C:\laragon\www\your-repo-name
+   cd C:\laragon\www\maconglomo_app
    ```
 2. Run:
 
    ```bash
-   composer install
+   composer require dompdf/dompdf
    ```
 
    → This will generate the `vendor/` folder automatically.
